@@ -1,0 +1,36 @@
+
+.container { //Общий контейнер который ограни весь конетнт
+width: 100%;
+max-width:1300px ;
+margin: 0 auto;// центрирование
+padding: 0 15px;
+}
+
+.logo {
+font-weight: 800;
+font-size: 37px;
+letter-spacing: -0.03em;
+background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.header{
+  padding: 50px 0;
+  &__container{
+    display: flex;
+    align-items: center;
+    gap: 95px;
+  }
+  &__nav{
+    display: flex;
+    gap: 95px;
+  }
+  &__link{
+  transition: color 0.2s ease;
+  &:hover{
+    color: #237249;
+    }
+  }
+}

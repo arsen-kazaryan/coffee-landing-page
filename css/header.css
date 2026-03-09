@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 37px;
+  letter-spacing: -0.03em;
+  background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header {
+  padding: 50px 0;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+.header__nav {
+  display: flex;
+  gap: 95px;
+}
+.header__link {
+  transition: color 0.2s ease;
+}
+.header__link:hover {
+  color: #237249;
+}/*# sourceMappingURL=header.css.map */
