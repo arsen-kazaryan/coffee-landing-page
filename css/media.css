@@ -397,6 +397,12 @@
   
 }
 @media (max-width: 500px) {
+  .stats{
+    gap: 0;
+  }
+  .stats .stats__item span{
+    font-size: 50px;
+  }
   .welcome__desc{
     margin-left: 15px;
   }
